@@ -1,0 +1,22 @@
+.modal-main {
+    display: flex;
+    justify-content: center;
+}
+
+
+.modal-main-child {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.open-modal-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}

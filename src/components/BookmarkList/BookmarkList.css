@@ -1,0 +1,10 @@
+.card-main {
+    display:flex;
+    justify-content: center;
+}
+
+.card-main-child {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

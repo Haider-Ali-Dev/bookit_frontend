@@ -1,0 +1,23 @@
+.card {
+    background-color: black;
+    width: 400px;
+    color: white;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.date {
+    color: gray;
+}
