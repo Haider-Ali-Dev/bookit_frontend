@@ -33,7 +33,7 @@ export default function Home() {
 
 
     const onSubmitBookmark = async () => {
-        const data = await fetch("http://localhost:8000/bookmark-add", {
+        const data = await fetch("https://api.bookit.haider-ali.xyz/bookmark-add", {
             method: "POST",
             body: JSON.stringify({
                 bookmark_name: modalBookmarkName,

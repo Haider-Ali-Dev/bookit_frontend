@@ -20,7 +20,7 @@ const SignIn = () => {
     
 
     const signIn = async () => {
-        const data = await fetch("http://localhost:8000/signin",{
+        const data = await fetch("https://api.bookit.haider-ali.xyz/signin",{
             method: "POST",
             body: JSON.stringify({email, password})
             

@@ -14,7 +14,7 @@ const Register = () => {
     const [name, setName] = useState("")
 
     const register = async () => {
-        const data = await fetch("http://localhost:8000/register",{
+        const data = await fetch("https://api.bookit.haider-ali.xyz/register",{
             method: "POST",
             body: JSON.stringify({email, password, name})
             

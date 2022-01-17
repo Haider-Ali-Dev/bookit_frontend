@@ -11,7 +11,7 @@ export default function BookmarkList() {
     const [bookmarks, setBookmarks] = useState([])
     useEffect(() => {
         const fetchBookmarks = async () => {
-            const data = await fetch("http://localhost:8000/bookmark-list",
+            const data = await fetch("https://api.bookit.haider-ali.xyz/bookmark-list",
             {
                 method: "POST",
                 body: JSON.stringify({
